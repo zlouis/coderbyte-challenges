@@ -1,6 +1,6 @@
 
 //find the missing letters
-
+//concept is to learn the numbering system of an array while utlizing charCodeAt to match letter code to next case
 function findMissingLetters(array) {
 for (var i = 0; i<array.length ; i ++) {                  //loop through array
 if (array.charCodeAt(i+1) - array.charCodeAt(i) != {      //if position first and second position of char does not equal 1 then return the first letter in first position + 1
@@ -11,6 +11,7 @@ return String.fromCharCodeAt(array.charCodeAt(i) +1)
 
 
 //test cases, works in both lower case and capital
+
 findMissingLetters("abd")  // c
 findMissingLetters("ghikl") // j
 findMissingLetters("FGHIJKM") // L
