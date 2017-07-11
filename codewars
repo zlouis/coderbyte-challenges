@@ -10,7 +10,7 @@ return String.fromCharCodeAt(array.charCodeAt(i) +1)
 }
 
 
-
+//test cases, works in both lower case and capital
 findMissingLetters("abd")  // c
 findMissingLetters("ghikl") // j
 findMissingLetters("FGHIJKM") // L
